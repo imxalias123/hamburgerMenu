@@ -1,1 +1,12 @@
 /* Write your CSS here */
+/* Write your CSS here */
+.not-found-img {
+  width: 20%;
+}
+.NotFound-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}

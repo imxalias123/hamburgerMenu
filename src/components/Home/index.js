@@ -1,11 +1,21 @@
-// Write your code here
 import './index.css'
-import {AiFillHome} from 'react-icons/ai '
+import Header from '../Header'
 
 const Home = () => (
-  <div>
-    <AiFillHome />
-    <h1>Home</h1>
+  <div className="bg-container">
+    <Header />
+    <div className="home-img-container">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/home-sm-img.png"
+        alt="home"
+        className="sm-home-img"
+      />
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/home-lg-img.png"
+        alt="home"
+        className="lg-home-img"
+      />
+    </div>
   </div>
 )
 

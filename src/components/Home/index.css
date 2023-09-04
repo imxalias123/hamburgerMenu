@@ -1,1 +1,30 @@
 /* Write your CSS here */
+/* Write your CSS here */
+.home-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sm-home-img {
+  display: flex;
+}
+.lg-home-img {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .sm-home-img {
+    display: none;
+  }
+  .lg-home-img {
+    display: flex;
+  }
+}
